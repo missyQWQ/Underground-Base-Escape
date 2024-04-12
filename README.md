@@ -2,7 +2,7 @@
 This is a text-based adventure game. You wake up in a laboratory and lose all your memory. You walk through the rooms, check and pick up items to achieve specific tasks, such as opening a locked door, killing a monster, playing a video etc.  Gradually, you will find the truth of your memory loss and get touched by the sorrowful love story. However, if you wander for too long, and don’t win the game within the limited time, the underground base will explode and you will lose the game.
 
 ## Introduction
-It's a university project from King's College London 2019/20 4CCS1PPA Programming and Applications, and please note this project is run on BuleJ.
+This is the code part of a university project from King's College London 2019/20 4CCS1PPA Programming and Applications, and please note this project is run on BuleJ. Please contact me if you're interested in the whole spec and the written report.
 - Supervisors: Michael Kölling, David J. Barnes
 - Author: [Yichun Zhang](https://github.com/missyQWQ)
 
@@ -11,6 +11,9 @@ To play this game, create an instance of this class and call "play" method.
 
 To win:
 To win this game, the player needs to escape from the underground base within 15 hours (number of location changes).
+
+## Structure
+![Structure](/code-structure.png)
 
 ## Walkthrough
 ```
