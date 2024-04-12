@@ -5,12 +5,13 @@ This is a text-based adventure game. You wake up in a laboratory and lose all yo
 This is the code part of a university project from King's College London 2019/20 4CCS1PPA Programming and Applications, and please note this project is run on BuleJ. Please contact me if you're interested in the whole spec and the written report.
 - Supervisors: Michael Kölling, David J. Barnes
 - Author: [Yichun Zhang](https://github.com/missyQWQ)
-
+```
 To start:
 To play this game, create an instance of this class and call "play" method.
 
 To win:
 To win this game, the player needs to escape from the underground base within 15 hours (number of location changes).
+```
 
 ## Structure
 ![Structure](/code-structure.png)
