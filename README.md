@@ -30,7 +30,7 @@ checkRemainTime -> go east -> open baseExit 1216 -> go east
 ```
 
 ## Game Settings
-### Rooms
+### 1. Rooms
 1. Magic Transporter Room
 ```
 A magic transporter room, designed by scientists of East Union in 2045.
@@ -87,7 +87,7 @@ There is a T9 keyboard above the doorknob requiring for a 4-digit password.
 Please enter the password, or type ‘####’ to leave.
 ```
 
-### Characters
+### 2. Characters
 1. A monster
 ```
 Unmovable. In the storage room. P…Peter…P…Peter…
@@ -100,7 +100,7 @@ Hi, I’m Robot X. You can exchange energy stones with me for equipment. 2 energ
 a Body Armor, and 3 energy stones for a Laser Gun. You want a : (type ‘none’ to leave)
 ```
 
-### Items (appear once)
+### 3. Items (appear once)
 1. Key
 ```
 A strange looking key with blood drops. (Can be picked up, weight: 30g)
@@ -181,48 +181,23 @@ monster, come and follow me. Let’s build a new world together!
 You get a item: Laser Gun.
 ```
 
-### Commands
-- check itemName(inTheRoom)
-```
-Followed by a specific item name. Return detailed information about the item.
-```
-- lookAround
-```
-Return items, exits and characters of the current room.
-```
-- currentWeight
-```
-Return the total weight of items the player carries with them.
-```
-- checkRemainTime
-```
-Return the remaining time.
-```
-- pickup itemName(canBePickUp)
-```
-Followed by a specific item name. Pick up that item.
-```
-- throw itemName(carriedWith)
-```
-Followed by a specific item name. Throw away that item.
-```
-- kill charName
-```
-Followed by a character's name. Kill this character if it can be killed.
-```
-- open
-```
-Followed by a room name and an item name. Try to open the room by using that item.
-```
-- MyItems
-```
-Return items the player carries with them.
-```
+### 4. Commands
+#### 1. One-word commands
+- lookaround: return items, exits, and characters of the current room.
+- currentWeight: return the total weight of items the player carried.
+- myItems: return items the player carried.
+- checkRemainTime: return the remaining time.
+- back: back to last room you've been in.
+- quit: quit the game.
+- help
 - commandInstruction
-```
-Return the detailed command instructions.
-```
-- back
-```
-Take the player to the previous room they were in.
-```
+
+#### 2. Two-word commands
+- go: followed by direction. Go to the room in this direction.
+- check: followed by item name. Return detailed information on this item.
+- pickup: followed by item name. Pick up the item.
+- throw: followed by item name. Throw away the item.
+- kill: followed by character name. Kill this character if it can be killed.
+
+#### 3. Three-word commands
+- open: followed by room name and item name. Try to open the room by using this item.
